@@ -54,7 +54,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(11,31,51,.96);backdrop-
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,31,51,.55) 0%,rgba(11,31,51,.20) 42%,rgba(11,31,51,0) 100%);pointer-events:none}
 .hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr .9fr;gap:70px;align-items:center;padding:100px 0}
 .eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold-light);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px}
-.eyebrow::before{content:"";width:42px;height:1px;background:var(--gold)}
+.eyebrow::before{display:none}
 .hero h1{font-size:clamp(3.2rem,7vw,6.3rem);letter-spacing:-.03em}
 .hero-sub{margin-top:18px;color:#dce3e9;font-size:1.05rem;max-width:580px}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
