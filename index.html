@@ -2,7 +2,7 @@
 <html lang="sr">
 <head>
 <meta charset="UTF-8">
-<title>Preradovićeva 93 - CAT Gradnja 2020</title>
+<title>Preradovićeva 93 — CAT Gradnja 2020</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,6 +62,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(11,31,51,.96);backdrop-
 .hero .btn.secondary{border-color:rgba(255,255,255,.35)}
 .hero-image{height:520px;border:1px solid rgba(255,255,255,.24);background:linear-gradient(135deg,#173653,#0a1b2b);position:relative;overflow:hidden}
 .hero-image::before{content:"SLIKA OBJEKTA";position:absolute;inset:20px;border:1px dashed rgba(255,255,255,.35);display:grid;place-items:center;color:rgba(255,255,255,.5);letter-spacing:.18em;font-size:.72rem}
+.hero-image::after{content:"Zameni ovaj placeholder svojom fotografijom objekta";position:absolute;bottom:20px;left:20px;right:20px;color:rgba(255,255,255,.55);font-size:.72rem;text-align:center}
 
 /* INTRO */
 .intro{background:#fff;padding:90px 0}
@@ -73,7 +74,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(11,31,51,.96);backdrop-
 
 /* STATS */
 .stats{background:var(--navy);color:#fff}
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr)}
 .stat{padding:38px 26px;border-left:1px solid rgba(255,255,255,.14);position:relative}
 .stat:first-child{border-left:0}
 .stat .num{font-family:'Playfair Display',serif;font-size:2.5rem;color:var(--gold-light);line-height:1}
@@ -167,7 +168,7 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
 <body>
 <header>
   <div class="wrap nav">
-    <div class="brand">CAT GRADNJA</div>
+    <div class="brand">CAT GRADNJA 2020</div>
     <input type="checkbox" id="navtoggle">
     <label class="burger" for="navtoggle" aria-label="Otvori meni">☰</label>
     <nav class="nav-links">
@@ -196,7 +197,7 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
   <div class="wrap intro-grid">
     <div class="reveal"><div class="section-kicker">O projektu</div><h2>Moderan prostor za svakodnevni život.</h2></div>
     <div class="intro-copy reveal">
-      <p>Stambeno-poslovni objekat u Petrovaradinu. Objekat obuhvata tri poslovna prostora u prizemlju i 30 stanova raspoređenih kroz prizemlje, sprat i potkrovlje, sa dva ulaza.</p>
+      <p>Stambeno-poslovni objekat u Petrovaradinu. Objekat obuhvata 20 stanova raspoređenih kroz prizemlje, sprat i potkrovlje, sa dva ulaza.</p>
       <p>Tehnička dokumentacija izrađena je u fazi komercijalnih skica, na osnovu osnova prizemlja, sprata i potkrovlja objekta na lokaciji ul. Preradovićeva br. 93, Petrovaradin.</p>
     </div>
   </div>
@@ -204,8 +205,7 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
 
 <section class="stats">
   <div class="wrap stats-grid stagger reveal">
-    <div class="stat"><div class="num">30</div><div class="label">Stanova</div></div>
-    <div class="stat"><div class="num">3</div><div class="label">Poslovna prostora</div></div>
+    <div class="stat"><div class="num">20</div><div class="label">Stanova</div></div>
     <div class="stat"><div class="num">2</div><div class="label">Ulaza</div></div>
     <div class="stat"><div class="num">Su+P+1+Pk</div><div class="label">Spratnost objekta</div></div>
   </div>
@@ -268,18 +268,10 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
     <details open>
       <summary>Prizemlje <span style="font-family:'Inter';font-size:.8rem;color:var(--concrete)">3 lokala · 6 stanova</span></summary>
       <div class="details-body">
-        <div class="sub">Poslovni prostori — ulaz 1</div>
-        <table>
-          <tr><th>Oznaka</th><th>Struktura</th><th>Površina (m²)</th></tr>
-          <tr><td>L1</td><td>poslovni prostor</td><td>34,50</td></tr>
-          <tr><td>L2</td><td>poslovni prostor</td><td>140,93</td></tr>
-          <tr><td>L3</td><td>poslovni prostor</td><td>34,80</td></tr>
-        </table>
         <div class="sub">Stanovi</div>
         <table>
           <tr><th>Oznaka</th><th>Ulaz</th><th>Struktura</th><th>Površina (m²)</th></tr>
           <tr><td>S1</td><td>1</td><td>jednoiposoban</td><td>37,90</td></tr>
-          <tr><td>S1</td><td>2</td><td>dvosoban</td><td>35,66</td></tr>
           <tr><td>S2</td><td>2</td><td>dvoiposoban</td><td>50,70</td></tr>
           <tr><td>S3</td><td>2</td><td>dvosoban</td><td>38,06</td></tr>
           <tr><td>S4</td><td>2</td><td>trosoban</td><td>62,03</td></tr>
@@ -300,12 +292,8 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
           <tr><td>S6</td><td>1</td><td>dvoiposoban</td><td>53,74</td></tr>
           <tr><td>S7</td><td>1</td><td>jednoiposoban</td><td>39,29</td></tr>
           <tr><td>S8</td><td>1</td><td>jednoiposoban</td><td>41,48</td></tr>
-          <tr><td>S6</td><td>2</td><td>dvosoban</td><td>46,89</td></tr>
-          <tr><td>S7</td><td>2</td><td>trosoban</td><td>56,56</td></tr>
-          <tr><td>S8</td><td>2</td><td>jednoiposoban</td><td>32,72</td></tr>
-          <tr><td>S9</td><td>2</td><td>garsonjera</td><td>31,13</td></tr>
-          <tr><td>S10</td><td>2</td><td>dvosoban</td><td>44,51</td></tr>
-          <tr><td>S11</td><td>2</td><td>dvoiposoban</td><td>60,81</td></tr>
+          <tr><td>S9</td><td>1</td><td>jednoiposoban</td><td>44,70</td></tr>
+          <tr><td>S10</td><td>1</td><td>dvosoban</td><td>41,55</td></tr>
         </table>
       </div>
     </details>
@@ -315,15 +303,10 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
       <div class="details-body">
         <table>
           <tr><th>Oznaka</th><th>Ulaz</th><th>Struktura</th><th>Površina (m²)</th></tr>
-          <tr><td>S9</td><td>1</td><td>jednoiposoban</td><td>44,70</td></tr>
-          <tr><td>S10</td><td>1</td><td>dvosoban</td><td>41,55</td></tr>
           <tr><td>S11</td><td>1</td><td>jednoiposoban</td><td>40,68</td></tr>
           <tr><td>S12</td><td>1</td><td>dvosoban</td><td>41,98</td></tr>
           <tr><td>S13</td><td>1</td><td>trosoban</td><td>72,15</td></tr>
           <tr><td>S14</td><td>1</td><td>dvoiposoban</td><td>63,62</td></tr>
-          <tr><td>S12</td><td>2</td><td>dvosoban</td><td>46,89</td></tr>
-          <tr><td>S13</td><td>2</td><td>trosoban</td><td>56,56</td></tr>
-          <tr><td>S14</td><td>2</td><td>jednoiposoban</td><td>32,72</td></tr>
           <tr><td>S16</td><td>2</td><td>dvosoban</td><td>44,51</td></tr>
           <tr><td>S17</td><td>2</td><td>dvoiposoban</td><td>60,81</td></tr>
         </table>
@@ -340,7 +323,7 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
         <div class="addr">"CAT GRADNJA 2020" D.O.O.</div>
         <div class="addr">Preradovićeva 97, Petrovaradin</div>
         <div class="addr">catgradnja@gmail.com</div>
-        <div class="addr">mob.tel. 065/8034-878</div>
+        <div class="addr">mob.tel. 065/5414-514</div>
       </div>
       <div>
         <h4>Projekat</h4>
@@ -348,13 +331,6 @@ footer .addr{font-size:.88rem;color:#c4ced6;margin-bottom:7px}
         <div class="addr">Lokacija: Preradovićeva 93, Petrovaradin</div>
         <div class="addr">Faza: Komercijalne skice</div>
         <div class="addr">Elaborat: E 12/2025, jul 2025</div>
-      </div>
-      <div>
-        <h4>Projektni tim</h4>
-        <div class="addr">Projektant: Miloš Ralić, dipl.ing.građ</div>
-        <div class="addr">Saradnik: Irena Nišević, građ. teh.</div>
-        <div class="addr">Direktor: Nišević Irena</div>
-        <div class="addr">Izrada: "MB projekt", Kralja Aleksandra 14, Novi Sad</div>
       </div>
     </div>
     <div class="copyright">
